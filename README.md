@@ -23,6 +23,9 @@ async def add_numbers(num1: float = Query(...), num2: float = Query(...)):
         return JSONResponse(status_code=400, content={"error": "Invalid input. Please provide two numbers."})
 ```
 
+## 起動
+
+`python -m uvicorn api:app --reload`
 
 ## リクエスト送信&レスポンス
 
