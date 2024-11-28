@@ -12,7 +12,7 @@ webアプリを制作したいと思い、それに伴いwebAPIの作成の練�
 リクエストで受け取った２つの数字の引数を足した結果を返り値とする
 
 
-## APIコーディング概要（おまけでエラー処理も実装した）
+## ざっくりとAPIコーディング概要（おまけでエラー処理も実装した）
 ```python
 @app.get("/add")
 async def add_numbers(num1: float = Query(...), num2: float = Query(...)):
