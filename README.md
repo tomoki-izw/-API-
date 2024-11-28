@@ -27,6 +27,7 @@ async def add_numbers(num1: float = Query(...), num2: float = Query(...)):
 
 `python -m uvicorn api:app --reload`
 
+
 ## リクエスト送信&レスポンス
 
 ```bash
@@ -51,4 +52,8 @@ Links             : {}
 ParsedHtml        : mshtml.HTMLDocumentClass
 RawContentLength  : 15
 ```
+
+
+## 今後
+HTMLとJavaScriptを用いてwebページの作成とそこからAPIを叩くということにチャレンジしていきたい
 
